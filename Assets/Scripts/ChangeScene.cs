@@ -8,7 +8,7 @@ public class ChangeScene : MonoBehaviour
 
     public void GoToMenu()
     {
-        SCManager.instance.LoadScene("Menu");
+        SCManager.instance.LoadScene("Intro");
     }
 
     public void GoToGame()
