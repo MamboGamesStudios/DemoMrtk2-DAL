@@ -46,7 +46,7 @@ PlayerSettings:
   defaultScreenHeight: 1080
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 1
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
@@ -141,7 +141,7 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0.0
   preloadedAssets:
-  - {fileID: 11400000, guid: 65b997cc4db294d409d07008715c94c8, type: 2}
+  - {fileID: 0}
   - {fileID: 2269313441988474973, guid: d8cbf11b5e234444085d6a06aabe4d99, type: 2}
   - {fileID: 11400000, guid: ff0a4f7ac9c14fa479516f71bc578adb, type: 2}
   metroInputSource: 0
