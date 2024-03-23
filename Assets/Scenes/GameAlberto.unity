@@ -486,6 +486,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4529484387973417839, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 226523928}
+    - target: {fileID: 4529484387973417839, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529484387973417839, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5212447456554443549, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_Size.x
       value: 0.48
@@ -588,7 +600,27 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1828545131449063232, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4059001804552984670, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 226523928}
   m_SourcePrefab: {fileID: 100100000, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+--- !u!1 &226523927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4059001804552984670, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
+  m_PrefabInstance: {fileID: 226523926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &226523928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226523927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c0b167accf4254b8fc5a6d9095d852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &252835895
 GameObject:
   m_ObjectHideFlags: 0
