@@ -31,6 +31,6 @@ using UnityEngine;
             transform.Rotate(transform.up * horizontal * rotationSpeed * Time.deltaTime);
 
             // Movemos el personaje en base al Input Vertical
-            controller.Move(-transform.forward * vertical * speed * Time.deltaTime);
+            controller.Move(transform.forward * vertical * speed * Time.deltaTime);
         }
     }

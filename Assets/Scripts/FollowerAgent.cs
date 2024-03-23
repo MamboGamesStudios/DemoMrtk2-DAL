@@ -19,15 +19,6 @@ public class FollowerAgent : MonoBehaviour
     private void Update()
     {
         agent.SetDestination(player.position);
-
-        if (agent.velocity.magnitude > 0f)
-        {
-            animator.SetBool("Run", true);
-        }
-        else 
-        {
-            animator.SetBool("Run", false);
-        }
-            
+     
     }
 }
