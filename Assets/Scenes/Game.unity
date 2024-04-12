@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.358
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 709038150}
-  m_IndirectSpecularColor: {r: 0.121167265, g: 0.17014411, b: 0.26159346, a: 0.358}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.358}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -366,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2618480935728866255, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8000001
+      value: -1.3499999
       objectReference: {fileID: 0}
     - target: {fileID: 2618480935728866255, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 393d64b573215e544b8b5cc315e10d68, type: 2}
     - target: {fileID: 5760205032607415428, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8000001
+      value: 1.3499999
       objectReference: {fileID: 0}
     - target: {fileID: 5760205032607415428, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -482,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6503012691112763335, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 6503012691112763335, guid: 2cfbd779d5fd16f48b3d7c5209e90fb7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -863,6 +863,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1301,6 +1305,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2359,6 +2367,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2813,7 +2825,7 @@ Transform:
   m_GameObject: {fileID: 827143093}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000059604638, y: -0.00000064820046, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: -0.6, y: 0.05, z: 0}
+  m_LocalPosition: {x: -0.45, y: 0.03, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3194,6 +3206,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3275,7 +3291,7 @@ PrefabInstance:
     - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
       propertyPath: collectSound
       value: 
-      objectReference: {fileID: 8300000, guid: 80fbb8c0c68727f429e4d50ddadd683b, type: 3}
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3569,6 +3585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Espada (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3829,7 +3849,7 @@ MonoBehaviour:
   distance: 0
   rows: 1
   columns: 4
-  cellWidth: 1.2
+  cellWidth: 0.9
   cellHeight: 0.1
   assetVersion: 1
 --- !u!4 &1344654516 stripped
@@ -4049,6 +4069,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4206,6 +4230,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4283,6 +4311,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5053,6 +5085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Espada (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5611,6 +5647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Espada (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5793,6 +5833,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5935,6 +5979,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 3359.8945
       objectReference: {fileID: 0}
+    - target: {fileID: 8981085855329495578, guid: f3546ed9c2c40e24db5148f633a2a17f, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bf8d31a2c3e6b2e43a4ae61cdf339105, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
