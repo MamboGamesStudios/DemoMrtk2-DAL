@@ -16,5 +16,15 @@ public class FogController : MonoBehaviour
         RenderSettings.fogDensity = slider.SliderValue/10;
     }
 
+    public void increaseFog()
+    {
+        RenderSettings.fogDensity += 0.5f / 10;
+    }
+
+    public void reduceFog()
+    {
+        RenderSettings.fogDensity -= 0.5f / 10;
+    }
+
 
 }
