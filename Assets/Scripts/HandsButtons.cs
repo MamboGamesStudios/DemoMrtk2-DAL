@@ -8,10 +8,12 @@ using UnityEngine;
 public class HandsButtons : MonoBehaviour
 {
     [SerializeField] GameObject Window;
+
+    [SerializeField] GameObject sword;
    
     public void rotateObject()
     {
-
+        //sword.transform.Rotate();    
     }
 
     public void animatedObject()
